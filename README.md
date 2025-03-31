@@ -24,3 +24,23 @@ Follow the instructions to install Tesseract on your machine:
   ```bash
   brew install tesseract
 
+## 📸 How to Use
+
+Prepare an Image: Ensure you have an image file containing text that you want to extract.
+
+Run the Script: Execute the script extract_text.py to extract text from the image:
+python extract_text.py --image_path path_to_your_image
+View the Output: The extracted text will be printed to the console and saved in a text file (output.txt).
+
+## 📝 Example Output
+
+Extracted Text:
+This is an example text extracted from the image.
+
+## 🔧 Project Structure
+
+├── extract_text.py        # Python script to extract text from images
+├── requirements.txt       # List of Python dependencies
+├── output.txt             # File containing extracted text (generated after running the script)
+└── README.md              # Project documentation
+
